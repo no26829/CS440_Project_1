@@ -21,6 +21,7 @@ cd virtual-pet
 
 # Install required dependencies
 npm install lucide-react    # For icons
+
 npm install @vitejs/plugin-react -D  # For Vite React plugin
 
 # Install base dependencies (should be automatic with create-vite)
