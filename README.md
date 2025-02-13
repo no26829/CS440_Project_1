@@ -13,8 +13,15 @@
 
 To deploy frontend:
 
-npx create-react-app frontend
+# Create new Vite project
+npm create vite@latest virtual-pet -- --template react
 
-cd frontend
+# Navigate to project directory
+cd virtual-pet
 
-npm install axios react-router-dom
+# Install required dependencies
+npm install lucide-react    # For icons
+npm install @vitejs/plugin-react -D  # For Vite React plugin
+
+# Install base dependencies (should be automatic with create-vite)
+npm install react react-dom
