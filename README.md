@@ -26,3 +26,13 @@ npm install @vitejs/plugin-react -D  # For Vite React plugin
 
 # Install base dependencies (should be automatic with create-vite)
 npm install react react-dom
+
+To test backend:
+# To start server
+node server.js
+
+# Test the endpoints
+GET http://localhost:5000/api/pets
+
+# To feed pet and decrease hunger level (number is pet ID)
+PUT http://localhost:5000/api/pets/feed/1
