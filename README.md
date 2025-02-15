@@ -1,5 +1,10 @@
 # CS440 Project 1
 
+## Description
+The Virtual Pet System is a full-stack web application designed to simulate the experience of taking care of a virtual pet. Users can interact with their pets through a frontend interface, viewing pet details and performing actions such as feeding to maintain their well-being. The system includes a React.js frontend for an interactive user experience, an Express.js backend to manage API requests, and a PostgreSQL database to store pet-related data.
+
+This project demonstrates key software engineering concepts, including frontend-backend communication, database integration, and RESTful API development. The backend exposes endpoints that allow users to fetch pet data and update pet statuses, ensuring a dynamic and engaging user experience.
+
 ## Technologies Used
 
 ## Overview:
