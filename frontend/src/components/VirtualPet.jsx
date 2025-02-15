@@ -32,11 +32,11 @@ const PETS = {
 
 const VirtualPet = () => {
   // State management
-  const [selectedPet, setSelectedPet] = useState(null);  // Currently selected pet type
-  const [petName, setPetName] = useState('');           // Pet's name (unused currently)
-  const [happiness, setHappiness] = useState(50);       // Happiness level (0-100)
-  const [energy, setEnergy] = useState(100);            // Energy level (0-100)
-  const [isSleeping, setIsSleeping] = useState(false);  // Sleep state
+  const [selectedPet, setSelectedPet] = useState(null);  
+  const [petName, setPetName] = useState('');       
+  const [happiness, setHappiness] = useState(50);      
+  const [energy, setEnergy] = useState(100);            
+  const [isSleeping, setIsSleeping] = useState(false);  
 
   // Determine pet's current state based on stats
   const getPetState = () => {
@@ -58,7 +58,7 @@ const VirtualPet = () => {
       }
     }, 3000);
 
-    // Cleanup timer on component unmount
+   
     return () => clearInterval(timer);
   }, [isSleeping]);
 
