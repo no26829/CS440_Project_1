@@ -1,4 +1,5 @@
 // require express
+require('dotenv').config(); 
 const express = require('express');
 const { Client } = require('pg'); // import PostgreSQL client
 const app = express();
@@ -20,6 +21,7 @@ client.connect()
     })
     .catch((err) => {
         console.error('Error connecting to the database', err);
+        process.exit(1);
     });
 
 app.use(express.json()); // Middleware to parse JSON data
