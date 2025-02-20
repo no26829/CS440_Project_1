@@ -39,7 +39,6 @@ Response Example:
   "hunger": 5
 }
 
-
 Status Codes:
 200 OK – Successfully retrieved pet
 404 Not Found – Pet not found
