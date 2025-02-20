@@ -28,9 +28,13 @@ Status Codes:
 
 
 2. Get Pet by ID
+   
 Endpoint: GET /Pet/{id}
+
 Description: Retrieves details of a specific pet by ID.
+
 Response Example:
+
 
 {
   "id": 1,
@@ -39,14 +43,21 @@ Response Example:
   "hunger": 5
 }
 
+
 Status Codes:
+
 200 OK – Successfully retrieved pet
+
 404 Not Found – Pet not found
 
 
 Status Codes:
+
+
 200 OK – Successfully retrieved pet
+
 404 Not Found – Pet not found
+
 
 {
   "name": "Buddy",
